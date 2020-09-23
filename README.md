@@ -1,5 +1,5 @@
 
-# strange-paths
+# Paths in Strange Spaces
 
 This repository exists to store the archived copy of "Paths in strange spaces", a blog post I wrote that -- for reasons that escape me -- has been cited in more substantial scholarly works. As the blog in question no longer exists, I've reposted it as a preprint on psyarxiv in order to preserve the citation trail if -- again, for reasons that escape me -- someone ever feels the need to track it down. 
 
