@@ -9,6 +9,12 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+**Abstract:**
+
+This is an archived version of a blog post on preregistration. The first half of the post argues that there is not a strong justification for preregistration as a tool to solve problems with statistical inference (p-hacking); the second half argues that preregistration has a stronger justification as one tool (among many) that can aid scientists in documenting our projects. [Note that this archival version exists only because the blog itself no longer does, and as the original has been cited multiple times there is value in ensuring that some version of the blog post remains accessible.]
+
+\bigskip
+
 **Important note:** 
 
 This essay is not a traditional academic output. It has \underline{not} been peer-reviewed or submitted to a journal, nor indeed will it be. It was originally published as a two part blog post that no longer exists. Nevertheless, I have noticed that this essay has been cited in other academic works and I am loathe to leave holes in the academic citation trail. To remedy this I've reposted this as a preprint on PsyArXiv to ensure the document has a DOI and remains publicly available (the original URL now redirects to PsyArXiv to minimise any discontinuities). 
@@ -104,7 +110,7 @@ Though I am myself a Bayesian data analyst by preference, and as such I'm less o
 
 It has not escaped my attention that nothing in my discussion of scientific discovery has, to this point, made any connection with the role of preregistration and the dreaded crime of "p-hacking". It is high time I remedied this oversight, and the place for my to start is by questioning the value of hypothesis tests -- after all, if preregistration is purportedly of value *because it prevents us from distorting the results of a hypothesis test*, then it must follow that hypothesis tests are themselves of some value to us as scientists. There is little point in trying to fix a thing that is irredeemably broken, after all.  
 
-With that in mind, I want to turn to my very favourite article in statistics. It is a 1976 paper by George Box, simply entitled *"Science and statistics"*^[https://www.jstor.org/stable/2286841]. Box's paper is a reflection of the legacy of Sir Ronald Fisher as scientist and a statistician, and the manner in which Fisher's thinking was influenced by the fact that he was both.^[Fisher's legacy as a eugenicist ought also be noted, and not in a positive light. In the real world, science is not politically neutral and as scientists we ought to have the honesty not to hide from the terrible things that have been justified in our name: https://www.adelaide.edu.au/library/special/exhibitions/significant-life-fisher/eugenics/] It is a brief paper, and one I would recommend that every scientist and statistician read at least once in their career. In the later stages of the paper Box discussed Fisher's irritations with *mathematistry*, which is pertinent to my annoyance with the claim that "preregistration prevents p-hacking". Here's Box: 
+With that in mind, I want to turn to my very favourite article in statistics. It is a 1976 paper by George Box, simply entitled *"Science and statistics"*^[https://www.jstor.org/stable/2286841]. Box's paper is a reflection of the legacy of Sir Ronald Fisher as scientist and a statistician, and the manner in which Fisher's thinking was influenced by the fact that he was both.^[Note added post-publication: Fisher's legacy as a eugenicist ought also be noted, and not in a positive light. In the real world, science is not politically neutral and as scientists we ought to have the honesty not to hide from the terrible things that have been justified in our name: https://www.adelaide.edu.au/library/special/exhibitions/significant-life-fisher/eugenics/] It is a brief paper, and one I would recommend that every scientist and statistician read at least once in their career. In the later stages of the paper Box discussed Fisher's irritations with *mathematistry*, which is pertinent to my annoyance with the claim that "preregistration prevents p-hacking". Here's Box: 
 
 > *Mathematistry is characterized by development of theory for theory's sake, which since it seldom touches down with practice, has a tendency to redefine the problem rather than solve it. Typically, there has once been a statistical problem with scientific relevance but this has long since been lost sight of.* 
 
@@ -167,6 +173,8 @@ There is a second kind of justification that we often give when extolling the vi
 
 In fact, as it will turn out, it is in this respect that I quite like preregistration and advocate that it -- or some other documentation process that is *at least* as thorough and transparent -- be standard practice in scientific work. This is the focus of part two.
 
+\clearpage
+
 # Part 2
 
 > *I'm caught up in something I don't get* \newline
@@ -222,7 +230,7 @@ So it goes in scientific research also... if you want to understand any scientif
 
 Throughout this post I've been inserting small snippets of code that construct generative artwork using the "jasmines" R package^[https://github.com/djnavarro/jasmines] that I've been slowly writing. The story behind the jasmines package is an interesting one, because I started it as an exercise in reverse engineering -- I wanted to understand how Thomas Lin Pederson was creating beautiful pieces like this one:
 
-[see genesis 112 piece at: https://www.data-imaginist.com/art]
+https://www.data-imaginist.com/art/005_genesis/genesis112.png
 
 As a matter of personal aesthetic principle Thomas doesn't release the source code to his artwork, which does make it tricky to work out what he's doing. Over time my goals with jasmines have shifted, but my initial intent was simple: work out how the magic of Thomas' art is performed and construct my own code that could approximate the behaviour of his system. This endeavour has a lot in common with how I do science: "out there" in the world there is a system (the mind) whose behaviour I don't understand, and my goal when developing computational models of cognition is to develop a formal system whose properties I *do* understand and whose behaviour approximates (in some limited way) that unknown system. Theoretical modelling in science is fundamentally an exercise in reverse engineering: trying to work out how system A works by building another system B that you control, and whose behaviour is the same as system A. The way I wrote the jasmines package provides a neat way of thinking about how I do science. 
 
@@ -305,6 +313,29 @@ I don't want to risk losing *everything* I've learned from my research. If my wo
 > *Could you be a little easier?* \newline
 *Could you be a little easier on me?*
     
-    
+\clearpage
+
+## References
+
+- Szollosi, A., Kellen, D., Navarro, D., Shiffrin, R., van Rooij, I., Van Zandt, T., & Donkin, C. (2019, October 31). Is preregistration worthwhile?. https://doi.org/10.1016/j.tics.2019.11.009
+
+- Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K., Hardwicke, T. E., Mellor, D. T., … Vazire, S. (2019, August 14). Preregistration Is Hard, And Worthwhile. https://doi.org/10.1016/j.tics.2019.07.009
+
+- Tversky, A. (1977). Features of similarity. Psychological Review, 84(4), 327–352. https://doi.org/10.1037/0033-295X.84.4.327
+
+- Fisher, R. (1935). The Logic of Inductive Inference. Journal of the Royal Statistical Society, 98(1), 39-82. doi:10.2307/2342435
+
+- Navarro, D., & Perfors, A. (2019, August 19). Hypothesis generation, the positive test strategy, and sparse categories. https://doi.org/10.1037/a0021110
+
+-  P. C. Wason (1968) Reasoning about a rule, Quarterly Journal of Experimental Psychology, 20:3, 273-281, DOI: 10.1080/14640746808400161 
+
+-  P. C. Wason (1960) On the failure to eliminate hypotheses in a conceptual task, Quarterly Journal of Experimental Psychology, 12:3, 129-140, DOI: 10.1080/17470216008416717 
+
+- George E. P. Box. (1976). Science and Statistics. Journal of the American Statistical Association, 71(356), 791-799. doi:10.2307/2286841
+
+- Navarro, D. (2018, October 26). Between the devil and the deep blue sea: Tensions between scientific judgement and statistical model selection. https://doi.org/10.31234/osf.io/39q8y
+
+- Edwards, W., Lindman, H., & Savage, L. J. (1963). Bayesian statistical inference for psychological research. Psychological Review, 70(3), 193–242. https://doi.org/10.1037/h0044139
+
 
 
