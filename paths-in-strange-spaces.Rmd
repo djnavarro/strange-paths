@@ -234,7 +234,7 @@ So it goes in scientific research also: if you want to understand any scientific
 
 ## The parable Jasmine and Rosemary
 
-Throughout this post I've been inserting small snippets of code^[Obviously, those code snippets are missing from the archived version!] that construct generative artwork using the "jasmines" R package^[https://github.com/djnavarro/jasmines] that I've been slowly writing. The story behind the jasmines package is an interesting one, because I started it as an exercise in reverse engineering -- I wanted to understand how Thomas Lin Pederson was creating beautiful pieces like this one:^[Reproduced with permission. Original at https://www.data-imaginist.com/art/]
+Throughout this post I've been inserting small snippets of code^[Obviously, those code snippets are missing from the archived version!] that construct generative artwork using the "jasmines" R package^[https://github.com/djnavarro/jasmines] that I've been slowly writing. The story behind the jasmines package is an interesting one, because I started it as an exercise in reverse engineering -- I wanted to understand how Thomas Lin Pedersen was creating beautiful pieces like this one:^[Reproduced with permission. Original at https://www.data-imaginist.com/art/]
 
 ```{r echo=FALSE}
 knitr::include_graphics("genesis112.png", dpi = 600)
